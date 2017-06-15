@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-senotrusov",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A configuration for ESLint, based on a personal preference of Stanislav Senotrusov",
   "keywords": [
     "eslint",
@@ -18,8 +18,7 @@
   "scripts": {
     "lint": "eslint ."
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": ">= 4"
   }

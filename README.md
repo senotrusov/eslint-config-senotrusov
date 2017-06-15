@@ -12,8 +12,8 @@ ESLint is a trademark of [jQuery Foundation, Inc.](https://jquery.org/)
 Install the `eslint` and `eslint-config-senotrusov`
 
 ```shell
-npm install eslint@"^4.0.0"
-npm install eslint-config-senotrusov
+npm install eslint@"^4.0.0" --save-dev
+npm install eslint-config-senotrusov --save-dev
 ```
 
 Create the `.eslintrc.json`, for example:
