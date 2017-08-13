@@ -239,7 +239,7 @@ module.exports = {
     }],
     "camelcase": "off", // We prefer camelcase but sometimes there are different needs
     "capitalized-comments": "off",
-    "comma-dangle": ["error", "always-multiline"],
+    "comma-dangle": ["error", "never"],
     "comma-spacing": ["error", {
       "before": false,
       "after": true
@@ -374,7 +374,7 @@ module.exports = {
       "after": true
     }],
     "constructor-super": "error",
-    "generator-star-spacing": ["error", "after"], // As in MDN docs, but we don't really like how the space sooks in shorthand generator methods in objects initializers.
+    "generator-star-spacing": "off", // ["error", "after"], // We prefer it to be like in MDN docs, but we don't really like how the space looks in shorthand generator methods in objects initializers.
     "no-class-assign": "error",
     "no-confusing-arrow": ["error", {
       "allowParens": true
